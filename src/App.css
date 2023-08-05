@@ -119,7 +119,7 @@ header > button {
     cursor: pointer;
 }
 
-header > button.active {
+header > button.active, header > span.active {
     display: none;
 }
 
