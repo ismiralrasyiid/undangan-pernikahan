@@ -14,7 +14,7 @@ function App() {
         {/* <SecondLayer /> */}
         {/* <ThirdLayer /> */}
       </div>
-      <footer>Designed by <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Waode Nuriati Khadir</a></footer>
+      <footer>Made by <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">NK Digital Desain</a></footer>
     </>
     
   );
