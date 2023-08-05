@@ -96,3 +96,29 @@ footer {
     padding: 7px;
     font-size: 14px;
 }
+
+header.active {
+    height: 100vh;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header > button {
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(252, 74, 103);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header > button.active {
+    display: none;
+}
