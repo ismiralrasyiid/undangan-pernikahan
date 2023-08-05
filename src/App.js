@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstLayer from './components/FirstLayer';
+import SecondLayer from './components/SecondLayer';
+import ThirdLayer from './components/ThirdLayer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Welcome To Our Invitation, Best Regards. Claudia & Richard</h1>
       </header>
-    </div>
+      <div className="App">
+        <FirstLayer />
+        {/* <SecondLayer /> */}
+        {/* <ThirdLayer /> */}
+      </div>
+      <footer>Designed by <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Waode Nuriati Khadir</a></footer>
+    </>
+    
   );
 }
 
