@@ -122,3 +122,8 @@ header > button {
 header > button.active {
     display: none;
 }
+
+header > span {
+    margin-top: 7px;
+    font-size: .6em;
+}

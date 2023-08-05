@@ -9,7 +9,7 @@ function App() {
 
   const onClickButton = () => {
     const audioElement =  document.getElementById('audio');
-    audioElement.volume = 0.4;
+    audioElement.volume = 0.3;
     audioElement.play();
 
     setIsActive(!isActive)
@@ -20,6 +20,7 @@ function App() {
       <header className={isActive ? "active" : ""}>
         <h1>Welcome To Our Invitation, Best Regards. Claudia & Richard</h1>
         <button className={isActive ? "" : "active"} onClick={onClickButton}>Open</button>
+        <span>*Playing background music</span>
       </header>
       <div className="App">
         <FirstLayer />
